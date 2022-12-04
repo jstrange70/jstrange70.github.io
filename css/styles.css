@@ -17,25 +17,22 @@
 body {
     font-size: 1.1em;
     font-family: Arial, Helvetica, sans-serif;
-	background-color: white;
+	background-color: green;
 }
 
 #container {
     width: 930px;
-    border-width: 1px;
     margin: 0 auto;
-    background-color: white;
+    background-color: grey;
 }
 
 
 header {
-    width: 910px;	/* reduced by 20px to accommodate shadow */
+    width: 930px;	
     margin-bottom: 30px;
     margin-top: 10px;
     text-align: center;
-    border: 1px solid #888888;
-    box-shadow: 15px 15px 5px 0 #888888;
-    border-radius: 25px;  	
+   
 }
 
 nav {
@@ -53,14 +50,13 @@ nav ul {
 
 nav ul li a {
     padding: 5px;
-    color: gray;
+    color: white;
     text-decoration: none;
     display:block;
 }
 
 nav ul li a:hover {
     background: black;
-    border-radius: 10px;
     color: white;
 }
 
@@ -69,9 +65,8 @@ nav ul li a:hover {
     padding: 10px;
     float: left;
     color: black;
-    border-left: 2px solid;
+	border-left: 2px solid;
     border-right: 2px solid;    
-    background-image:  url(images/ricepaper.jpg); 
 }
 
 #main p {
@@ -84,7 +79,7 @@ figure{
 }
 
 figcaption {
-    font-style: bold;
+    font-weight: bold;
 }
 
 aside {
@@ -96,7 +91,7 @@ aside {
 }
 
 aside p {
-    font-style: bold;
+    font-weight: bold;
     font-size: 0.9em;
 }
 
@@ -122,29 +117,26 @@ footer {
     width: 910px;
     margin: 0;
     padding: 10px;
-    background-color: black;
+    background-color: white;
     clear: both;
-    color: white;
+    color: grey;
     font-weight: bold;
     text-align: center;
-	border-bottom-left-radius: 25px;
-	border-bottom-right-radius: 25px;
+
 	
 }
 
 #wrapper {
     width: 930px;
     margin-bottom: 10px;
-    border: 2px solid;
-    border-radius: 25px;
 }/* navigation for footer */
 footer a:link {
-    color: white;
+    color: black;
     text-decoration: none;
 }
 
 footer a:visited {
-    color: grey;
+    color: green;
     background-color: black;
     text-decoration: none;
 }
