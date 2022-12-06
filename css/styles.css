@@ -78,10 +78,21 @@ input[type=text] {
 #main p {
     text-indent: 1.5em;
 }
-
+<style>
+	table, th, td {
+		border: 7px solid white;
+		border-collapse: collapse;
+	}
+	th, td {
+	background-color: black;
+	padding: 10px;
+	padding-left: 25px;
+	}
+</style>
 figure{
-    padding-top: 10px;
+	padding-top: 10px;
 	text-align: center;
+	
 }
 
 figcaption {
@@ -90,7 +101,7 @@ figcaption {
 
 aside {
     width: 200px;
-    margin: 17px 5px 0 5px;
+    margin: 25px 5px 0 5px;
     padding: 10px;
     float: right;
 	text-align: center;
