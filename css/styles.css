@@ -79,11 +79,11 @@ input[type=text] {
     text-indent: 1.5em;
 }
 <style>
-	table, th, td {
-		border: 7px solid white;
-		border-collapse: collapse;
+table, th, td {
+	border: 7px solid white;
+	border-collapse: collapse;
 	}
-	th, td {
+th, td {
 	background-color: black;
 	padding: 10px;
 	padding-left: 25px;
