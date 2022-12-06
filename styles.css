@@ -1,0 +1,164 @@
+@charset "utf-8";
+/*
+   sample start file for final project - educational use only
+   
+   Author:   Julie Strange	
+   Date:     Fall2022
+   
+  
+
+*/
+
+* {
+    margin: 0; 
+    padding: 0;
+}
+
+body {
+    font-size: 1.1em;
+    font-family: Arial, Helvetica, sans-serif;
+	background-color: black;
+}
+
+#container {
+    width: 930px;
+    margin: 0 auto;
+    background-color: grey;
+}
+
+
+header {
+    width: 930px;	
+    margin-bottom: 30px;
+    margin-top: 10px;
+    text-align: center;
+   
+}
+
+nav {
+    width: 200px;
+    margin: 25px 5px 0 5px; 
+    padding: 25px 10px 0 10px;
+    float: left;
+    text-align: center;
+}
+
+nav ul {
+    font-weight: bold;
+    list-style: none;
+}
+
+nav ul li a {
+    padding: 5px;
+    color: white;
+    text-decoration: none;
+    display:block;
+}
+
+nav ul li a:hover {
+    background: black;
+    color: white;
+}
+input[type=text] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+}
+
+#main {
+    width: 446px;
+    padding: 10px;
+    float: left;
+    color: white;
+	border-left: 2px solid;
+    border-right: 2px solid;    
+}
+
+#main p {
+    text-indent: 1.5em;
+}
+	table, th, td {
+		border: 7px solid white;
+		border-collapse: collapse;
+	}
+	th, td {
+	background-color: black;
+	padding: 10px;
+	padding-left: 25px;
+	}
+figure{
+	padding-top: 10px;
+	text-align: center;
+	
+}
+
+figcaption {
+    font-weight: bold;
+}
+
+aside {
+    width: 200px;
+    margin: 25px 5px 0 5px;
+    padding: 10px;
+    float: right;
+	text-align: center;
+}
+
+aside p {
+    font-weight: bold;
+    font-size: 0.9em;
+}
+
+h2 {
+    font-size: 1.4em;
+	color: black;
+    text-align: center;
+    padding-bottom: 0.5em;
+}
+
+h3 {
+    text-align: center;
+	color: black;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+h4 {
+    color: black;
+	text-align: center;
+    padding-bottom: 0.5em;
+    padding-top: 0.5em;
+}
+
+
+footer {
+    width: 910px;
+    margin: 0;
+    padding: 10px;
+    background-color: white;
+    clear: both;
+    color: grey;
+    font-weight: bold;
+    text-align: center;
+
+	
+}
+
+#wrapper {
+    width: 930px;
+    margin-bottom: 10px;
+}/* navigation for footer */
+footer a:link {
+    color: black;
+    text-decoration: none;
+}
+
+footer a:visited {
+    color: green;
+    background-color: black;
+    text-decoration: none;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
