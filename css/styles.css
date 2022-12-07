@@ -89,6 +89,7 @@ th, td {
 	padding-left: 25px;
 	}
 </style>
+
 figure{
 	padding-top: 10px;
 	text-align: center;
@@ -112,6 +113,11 @@ aside p {
     font-size: 0.9em;
 }
 
+img {
+  width: 300px;
+  height: 225px;
+  object-fit: contain;
+}
 h2 {
     font-size: 1.4em;
 	color: black;
