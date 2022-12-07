@@ -59,6 +59,11 @@ nav ul li a:hover {
     background: black;
     color: white;
 }
+nav img {
+  width: 170px;
+  height: 100px;
+  object-fit: contain;
+ }
 input[type=text] {
   width: 100%;
   padding: 12px 20px;
@@ -106,18 +111,13 @@ aside {
 	text-align: center;
 }
 aside img {
-  width: 200px;
-  height: 125px;
+  width: 170px;
+  height: 100px;
   object-fit: contain;
 }
 aside p {
     font-weight: bold;
     font-size: 0.9em;
-}
-nav img {
-  width: 200px;
-  height: 125px;
-  object-fit: contain;
  }
 table, th, td {
 	border: 7px solid white;
