@@ -81,7 +81,8 @@ input[type=text] {
 }
 
 #main p {
-    text-indent: 1.5em;
+	text-indent: 1.5em;
+    
 }
 table, th, td {
 	border: 7px solid white;
@@ -118,6 +119,7 @@ aside img {
 aside p {
     font-weight: bold;
     font-size: 0.9em;
+	
  }
 table, th, td {
 	border: 7px solid white;
@@ -131,8 +133,8 @@ th, td {
 
 
 #main img {
-  width: 200px;
-  height: 125px;
+  width: 560px;
+  height: 400px;
   object-fit: contain;
 }
 h2 {
